@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsAotCompatible>true</IsAotCompatible>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+
+    <!--<ItemGroup>
+        <None Update="runtimes\**\*.*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Pack>true</Pack>
+        </None>
+    </ItemGroup>-->
+
+    <ItemGroup>
+        <PackageReference Include="AngleSharp" Version="1.2.0-beta.431" />
+        <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+        <PackageReference Include="DotNetZip" Version="1.16.0" />
+        <PackageReference Include="Fastenshtein" Version="1.0.10" />
+        <PackageReference Include="linq-to-astar" Version="1.2.1" />
+        <PackageReference Include="Selenium.WebDriver" Version="4.25.0" />
+        <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="129.0.6668.5800" />
+        <PackageReference Include="SixLabors.ImageSharp" Version="3.1.5" />
+        <PackageReference Include="System.Drawing.Common" Version="8.0.8" />
+        <PackageReference Include="System.Private.Uri" Version="4.3.2" />
+        <PackageReference Include="ZString" Version="2.6.0" />
+    </ItemGroup>
+
+</Project>
